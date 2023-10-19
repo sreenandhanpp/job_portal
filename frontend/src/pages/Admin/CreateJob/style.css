@@ -1,0 +1,50 @@
+.textarea{
+    height: 100px;
+    font-size: 11.5px;
+}
+
+#Form .textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f3eded6d;
+    width: 100%;
+    outline: none;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+#Form .textarea {
+    border: 1px solid var(--main-color);
+}
+
+
+.form-container {
+    display: grid;
+    place-items: center;
+    height: 170vh;
+    background: var(--background-color);
+}
+
+
+#FormContainer {
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    border: 2px solid #ffffff6d;
+    width: 760px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px 1.5px #0000002b;
+    font-family: Poppins;
+    padding: 10px;
+    height: 1050px !important;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#Form li {
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    text-align: left;
+}
